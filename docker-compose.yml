@@ -21,8 +21,6 @@ services:
       dockerfile: Dockerfile.frontend
     depends_on:
       - backend
-    ports:
-      - "80"
 
   db:
     image: mysql:8.0
